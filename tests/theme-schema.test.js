@@ -3,6 +3,7 @@ import { expect, test, describe } from 'vitest';
 import * as fs from 'fs';
 import * as path from 'path';
 
+const __dirname = path.dirname(new URL(import.meta.url).pathname);
 const themePaths = [
   path.resolve(__dirname, '../themes/Varna Dark-color-theme.json'),
   path.resolve(__dirname, '../themes/Vern Dark-color-theme.json'),
