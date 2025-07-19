@@ -1,6 +1,6 @@
 {
-  "name": "varna-theme",
-  "displayName": "Varna Theme",
+  "name": "vern-theme",
+  "displayName": "Vern Theme",
   "description": "elegant, sleek and modern dark theme",
   "version": "0.0.1",
   "engines": {
@@ -12,9 +12,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Varna Dark",
+        "label": "Vern Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/Varna Dark-color-theme.json"
+        "path": "./themes/Vern Dark-color-theme.json"
       }
     ]
   }
