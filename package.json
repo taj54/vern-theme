@@ -19,7 +19,8 @@
     ]
   },
   "scripts": {
-    "test": "vitest"
+    "test": "vitest",
+    "build": "node scripts/build.js"
   },
   "devDependencies": {
     "jsdom": "^26.1.0",
